@@ -1,6 +1,22 @@
 body{
-    background-color: black;
+    background-color: rgb(136, 184, 196);
+} /*alterando a cor de fundo da tela*/
+img, figure{ 
+    display: inline-block; 
+    float: right; /*alinhando a imagem para a direita*/
+    width: 520px; /*redimensionando a imagem*/
+    text-align: center; /*centralizando a legenda da imagem*/
 }
-h1{
-    color: white;
+a{
+    display: inline-block;
+    float: center; /*centralizando a legenda com o link */
+    text-decoration: none; /*retirando o sublinhado do link*/
 }
+a:hover{
+    color:red; /* deixando vermelho quando o mouse estiver sobre as legendas com links*/
+}
+
+
+
+
+
